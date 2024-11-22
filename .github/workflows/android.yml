@@ -1,7 +1,7 @@
 
 
-  - name: Setup Java JDK
-  uses: actions/setup-java@v4.5.0
+  name: Setup Java JDK
+  uses: actions/setup-java@v17.0.6
   with:
     # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
     java-version: 17.0.6 # optional
